@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=" output.css" />
+    <title>todo app-recreates</title>
+  </head>
+  <body class="bg-[#0E1011]">
+    <div
+      class="w-full md:w-[50vw] mx-auto mt-10 p-4 bg-[#1A1D1E] rounded-[16px]"
+    >
+      <h1 class="text-[#00FFC3] text-5xl font-bold text-center mb-3">
+        TODO APP
+      </h1>
+      <form
+        id="todo-form"
+        action=""
+        class="flex flex-col md:flex-row items-center border-0 md:border-2 border-white hover:border-[#00FFC3] rounded-[16px]"
+      >
+        <input
+          type="text"
+          class="w-full text-white border-2 border-white hover:border-[#00FFC3] md:border-0 mb-3 md:mb-0 px-4 py-2 bg-[#1A1D1E] rounded-[16px] focus:outline-none focus:border-[#00FFC3] transition-colors duration-300"
+          id="todo-input"
+        />
+        <button
+          class="text-[#333] bg-[#00FFC3] px-4 py-2 rounded-[16px] w-full md:w-fit mb-3 md:mb-0 md:ml-2 hover:bg-[#00FFC3]/90 transition-colors duration-300"
+        >
+          ADD
+        </button>
+      </form>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+
+    <script src="todo.Js"></script>
+  </body>
+</html>
